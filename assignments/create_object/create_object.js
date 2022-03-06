@@ -10,7 +10,9 @@ function CreateObject(arr) {
             value.push(arr[i]);
         }
     }
-    key.forEach((key,i)=>object[key]=value[i])
-    return object
+    for (let i=0;i<key.length;i++){
+        object[key[i]] = value[i]
+    }
+    return object 
 }
-module.exports = CreateObject;
+module.exports = CreateObject; 
