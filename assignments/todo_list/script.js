@@ -59,4 +59,4 @@ par2.setAttribute('style','display:inline-block')
 function showAll(){
 par1.setAttribute('style','display:inline-block')
 par2.setAttribute('style','display:inline-block')
-}
+} 
